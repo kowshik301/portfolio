@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salike Kranthi Kowshik | Computer Science & MERN Stack Portfolio</title>
+  <meta name="description" content="Portfolio of Salike Kranthi Kowshik, Computer Science undergraduate at VIT-AP specializing in Java, MERN Stack, Machine Learning, AWS, and Image Processing.">
+  <meta name="keywords" content="Salike Kranthi Kowshik, Software Engineer, Portfolio, MERN Stack, Machine Learning, VIT-AP, Java Developer">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Dynamic Glowing Background -->
+  <div class="bg-glow-container">
+    <div class="glow-blob blob-1"></div>
+    <div class="glow-blob blob-2"></div>
+    <div class="glow-blob blob-3"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        Kowshik<span class="dot">.</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <button class="theme-toggle-btn" id="theme-toggle" title="Toggle Light/Dark Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              Available for Software Engineering & Full-Stack Roles
+            </div>
+            
+            <h1 class="hero-title">
+              Hi, I'm <br>
+              <span class="gradient-text">Salike Kranthi Kowshik</span>
+            </h1>
+
+            <div class="hero-typewriter">
+              <span id="typewriter-text"></span>
+            </div>
+
+            <p class="hero-description">
+              Computer Science undergraduate at VIT-AP University. Experienced in building full-stack MERN applications, intelligent ML analytics systems, and research-grade image processing solutions.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-rocket"></i> View My Projects
+              </a>
+              <button class="btn btn-secondary" id="view-resume-btn">
+                <i class="fa-solid fa-file-pdf"></i> Interactive Resume
+              </button>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://linkedin.com/in/salike-kranthi-kowshik" target="_blank" class="social-icon-btn" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/kowshik301" target="_blank" class="social-icon-btn" title="GitHub Repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:salikekranthi@gmail.com" class="social-icon-btn" title="Email Me">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="tel:+919398637365" class="social-icon-btn" title="Call Me">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <div class="hero-avatar-card">
+              <img src="assets/images/hero_avatar.jpg" alt="Salike Kranthi Kowshik">
+              
+              <div class="avatar-badge-float badge-top-left">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <div style="font-size: 0.75rem; color: var(--text-muted);">Education</div>
+                  <div>VIT-AP (8.20 CGPA)</div>
+                </div>
+              </div>
+
+              <div class="avatar-badge-float badge-bottom-right">
+                <i class="fa-solid fa-code-branch"></i>
+                <div>
+                  <div style="font-size: 0.75rem; color: var(--text-muted);">Specialization</div>
+                  <div>MERN & ML Systems</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Stats Banner -->
+        <div class="about-stats-grid" id="about">
+          <div class="glass-card stat-card">
+            <div class="stat-number">8.20</div>
+            <div class="stat-label">B.Tech CGPA at VIT-AP</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Key Research & Tech Projects</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">12+</div>
+            <div class="stat-label">REST APIs Developed</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">150+</div>
+            <div class="stat-label">Cadets Mentored & Led</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Proficiency</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+        </div>
+
+        <div class="skills-tabs" id="skills-tabs"></div>
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Academic & Research Projects</h2>
+        </div>
+
+        <div class="project-filters" id="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ml-ai">Machine Learning & AI</button>
+          <button class="filter-btn" data-filter="security">Image Processing & Security</button>
+          <button class="filter-btn" data-filter="fullstack">MERN Full Stack</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Qualifications & Credentials</span>
+          <h2 class="section-title">Education & Certifications</h2>
+        </div>
+
+        <div class="edu-cert-grid">
+          <div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.6rem;">
+              <i class="fa-solid fa-user-graduate" style="color: var(--accent-cyan);"></i> Education Timeline
+            </h3>
+            <div class="timeline" id="education-timeline"></div>
+          </div>
+
+          <div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.6rem;">
+              <i class="fa-solid fa-certificate" style="color: var(--accent-purple);"></i> Professional Certifications
+            </h3>
+            <div id="certifications-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements & Leadership Section -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Beyond Academics</span>
+          <h2 class="section-title">Achievements & Leadership Experience</h2>
+        </div>
+
+        <div class="achievements-grid" id="achievements-grid"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact & Professional Links</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="glass-card contact-info-card">
+            <h3 style="font-size: 1.4rem; margin-bottom: 1.5rem;">Contact Information</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-text">
+                <label>Email Address</label>
+                <a href="mailto:salikekranthi@gmail.com">salikekranthi@gmail.com</a>
+              </div>
+              <button class="btn btn-secondary btn-sm" onclick="copyToClipboard('salikekranthi@gmail.com', 'Email')" title="Copy Email" style="margin-left: auto;">
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-text">
+                <label>Phone Number</label>
+                <a href="tel:+919398637365">+91 9398637365</a>
+              </div>
+              <button class="btn btn-secondary btn-sm" onclick="copyToClipboard('+919398637365', 'Phone Number')" title="Copy Phone" style="margin-left: auto;">
+                <i class="fa-solid fa-copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="contact-text">
+                <label>LinkedIn</label>
+                <a href="https://linkedin.com/in/salike-kranthi-kowshik" target="_blank">salike-kranthi-kowshik</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-text">
+                <label>GitHub</label>
+                <a href="https://github.com/kowshik301" target="_blank">kowshik301</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card contact-form-card">
+            <h3 style="font-size: 1.4rem; margin-bottom: 1.5rem;">Send a Message</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="contact-name">Your Full Name</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Your Email Address</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" class="form-input" placeholder="Type your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Modal Container -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="glass-card modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-title">Modal Title</h2>
+        <span class="modal-subtitle" id="modal-subtitle">Modal Subtitle</span>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Content inserted dynamically by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        © 2026 Salike Kranthi Kowshik. Built with HTML5, CSS3 & JavaScript.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
